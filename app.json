@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "GSOTiQ",
+    "slug": "gsot-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/gsotiq-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/gsotiq-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/gsotiq-icon.png",
+          "color": "#0F2548",
+          "sounds": [],
+          "androidMode": "default",
+          "androidCollapsedTitle": "GSOTiQ Reminders"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.whitselm.gsotapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/gsotiq-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.whitselm.gsotapp"
+    },
+    "web": {
+      "favicon": "./assets/gsotiq-icon.png"
+    }
+  }
+}
