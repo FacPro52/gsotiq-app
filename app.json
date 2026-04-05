@@ -36,6 +36,12 @@
     },
     "web": {
       "favicon": "./assets/gsotiq-icon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b03d114e-03e4-41cd-87d9-a947d3b6a6cd"
+      }
+    },
+    "owner": "mgoblue"
   }
 }
